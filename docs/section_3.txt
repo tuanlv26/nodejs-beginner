@@ -1,0 +1,4 @@
+#5: Có nên đóng kết nối liên tục tới mongodb? ===> không cần, mongose có khái niệm PoolSize tự làm việc đóng mở
+#6: PoolSize là gì? Vì sao quan trọng?
+    - PoolSize là => Trong ngữ cảnh của mongoose, nhóm kết nối là tập hợp các kết nối của cơ sở dữ liệu mà có thể tái sử dụng, được duy trì bởi database\
+        Example: - khi ứng dụng của b yêu cầu kết nối tới database thì mongoose sẽ kiểm tra nhóm kết nối
