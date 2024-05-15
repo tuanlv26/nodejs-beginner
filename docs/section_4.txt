@@ -1,0 +1,2 @@
+#1: sự khác nhau của .env và configs
+    - 
